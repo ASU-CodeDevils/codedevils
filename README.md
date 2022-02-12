@@ -18,6 +18,24 @@ You can start editing the page by modifying `pages/index.tsx`. The page auto-upd
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
+## Contributing
+
+Please create a new local branch with the naming convention `Your Name / Name of Feature`
+```
+git checkout -b yourName/featureName
+```
+
+When making a commit
+```
+git add {yourFiles go here} or use git add . to add all
+git commit -m "A message about what you did"
+git checkout main
+git pull
+git checkout yourName/featureName
+git merge main
+git push origin/yourName/featureName
+```
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
