@@ -33,7 +33,11 @@ git checkout main
 git pull
 git checkout yourName/featureName
 git merge main
-git push origin/yourName/featureName
+
+// if first time you need to publish the branch use:
+git push --set-upstream origin yourName/featureName
+// then you may:
+git push origin yourName/featureName
 ```
 
 ## Learn More
