@@ -20,23 +20,34 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 ## Contributing
 
-Please create a new local branch with the naming convention `Your Name / Name of Feature`
+Please create a new local branch with the naming convention `Your Name / Name of Feature` ex. `rhett/landingPage`
 ```
 git checkout -b yourName/featureName
 ```
 
-When making a commit
+When making a commit, stage your files
 ```
-git add {yourFiles go here} or use git add . to add all
+git add {your files go here}
+```
+or use 
+```
+git add . to add all
+```
+Then make a commit
+```
 git commit -m "A message about what you did"
 git checkout main
 git pull
 git checkout yourName/featureName
 git merge main
-
-// if first time you need to publish the branch use:
+```
+If this is the first time then you need to publish the branch:
+```
 git push --set-upstream origin yourName/featureName
-// then you may:
+```
+
+then you may:
+```
 git push origin yourName/featureName
 ```
 
